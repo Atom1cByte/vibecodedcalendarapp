@@ -118,6 +118,15 @@ function App() {
         <h3>Selected Date</h3>
         <p className="date-display">{getCombinedMonth() || '[No month selected]'} {selectedDay}, {selectedYear}</p>
       </div>
+
+      <a
+        href="https://twitter.com/atomicbyte_"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="twitter-button"
+      >
+        Follow atomicbyte on Twitter/X
+      </a>
     </div>
   )
 }

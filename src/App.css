@@ -294,3 +294,22 @@ body {
   color: #212529;
   font-weight: 600;
 }
+
+.twitter-button {
+  display: inline-block;
+  background: #1da1f2;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.15s ease;
+  margin-top: 1rem;
+}
+
+.twitter-button:hover {
+  background: #1a91da;
+  text-decoration: none;
+  color: white;
+}
